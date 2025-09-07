@@ -37,12 +37,4 @@ Built with **HTML, CSS, and JavaScript**.
    ---
    
 
-##📝 Future Improvements
 
-- Add more recipes
-
-- Improve UI with animations
-
-- Add search functionality
-
-- Make it mobile-friendly
