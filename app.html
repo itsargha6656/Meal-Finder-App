@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Search App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="banner">
+            Select A Meal From these options
+
+        </div>
+        <div id="content">
+
+            <form id="contentForm">
+                <label for="Breakfast">Breakfast</label>
+                <input type="radio" name="food" id="Breakfast" value="Breakfast">
+
+                <label for="Lunch">Lunch</label>
+                <input type="radio" name="food" id="Lunch" value="Lunch">
+
+                <label for="Dinner">Dinner</label>
+                <input type="radio" name="food" id="Dinner" value="Dinner">
+
+                <label for="Snacks">Snacks</label>
+                <input type="radio" name="food" id="Snacks" value="Snacks">
+                <button type="button" id="getRecipe">Next</button>
+            </form>
+
+
+
+
+        </div>
+
+        <div id="menu">
+
+            <form id="menuForm">
+                <label for="Veg">Veg</label>
+                <input type="radio" name="mealType" id="Veg" value="Veg">
+
+                <label for="Non-Veg">Non-veg</label>
+                <input type="radio" name="mealType" id="Non-Veg" value="Non-Veg">
+                <button type="button" id="getMenu">Get Recipe</button>
+            </form>
+
+
+        </div>
+
+        <div class="meal">
+
+        </div>
+    </div>
+
+    <script src="script2.js" type="module"></script>
+</body>
+
+</html>
